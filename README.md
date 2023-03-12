@@ -50,3 +50,19 @@ PRACTICE 3
 
 --SELECT * FROM film
 --WHERE (title LIKE 'C%') AND length >90 AND rental_rate = 2.99;
+
+
+PRACTICE 4
+
+--SELECT DISTINCT replacement_cost FROM film;
+
+--SELECT COUNT(DISTINCT replacement_cost) FROM film;
+
+--SELECT COUNT(*) FROM film
+--WHERE (title ~~ 'T%') AND rating = 'G';
+
+--SELECT COUNT(*) FROM country
+--WHERE country ~~ '_____';
+
+--SELECT COUNT(*) FROM city
+--WHERE city ~~* '%r';
