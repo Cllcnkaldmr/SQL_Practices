@@ -86,3 +86,19 @@ PRACTICE 5
 --WHERE (store_id = 1)
 --ORDER BY last_name DESC
 --LIMIT 4;
+
+
+PRACTICE 6
+
+--SELECT AVG(rental_rate) FROM film;  --2.98
+
+--SELECT COUNT(title) FROM film
+--WHERE title LIKE 'C%'; --92
+
+--SELECT * FROM film
+--WHERE rental_rate = 0.99
+--ORDER BY length DESC
+--LIMIT 1;  --184
+
+--SELECT COUNT(DISTINCT replacement_cost) FROM film
+--WHERE length > 150;  --21 
